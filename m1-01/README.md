@@ -38,9 +38,3 @@ Goal: create a venv and install dependencies without help, and understand what e
 
 8. **Inspect the lockfile**
    Open `uv.lock` after step 4 and note it pins exact versions + hashes — this is what makes installs reproducible across machines.
-
-## Things worth checking with your mentor
-
-- Why `uv sync` vs `uv pip install`, and when each is appropriate
-- Whether this team commits `uv.lock` to git (it usually should be)
-- Why some deps are in a `dev`/`langgraph-cli` group instead of default (see M1-08)
